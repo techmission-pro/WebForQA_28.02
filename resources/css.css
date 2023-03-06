@@ -1263,3 +1263,33 @@
   text-decoration: line-through;
   font-size: 25px;
 }
+
+.div-block-12 {
+  flex-direction:row-reverse;
+}
+
+.text-block-9 {
+  padding-left: 20px;
+}
+
+.gift {
+  width: 50px;
+  height: 50px;
+}
+
+.face {
+  width: 30px;
+  height: 30px;
+}
+
+.nnavigation {
+  position: fixed;
+}
+
+.div-block-6:nth-child(2n) {
+  background: rgb(35, 73, 211);
+
+}
+.div-block-6:nth-child(2n) .text-block-5{
+  color: rgb(211, 35, 35);
+}
