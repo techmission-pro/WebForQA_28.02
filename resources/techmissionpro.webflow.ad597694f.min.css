@@ -3085,6 +3085,15 @@ p {
     box-shadow: 1px 1px 20px 0 rgba(0, 0, 0, .1)
 }
 
+.div-block-6:nth-child(2n) {
+    background-color: #888;
+    color: blue;
+}
+	
+.div-block-6:nth-child(2n) .text-block-5 {
+   color: blue;
+}
+		
 .div-block-7 {
     max-width: 260px
 }
@@ -16145,7 +16154,7 @@ p {
         padding-top: 0
     }
 
-    .div-block-10 {
+  .div-block-10 {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
         -webkit-flex-direction: column;
@@ -22643,3 +22652,4 @@ p {
         text-align: center
     }
 }
+
