@@ -4,6 +4,14 @@ html {
     -webkit-text-size-adjust: 100%;
     height: 100%
 }
+.div-block-6:nth-child(even){
+    background-color: #888;
+    ;
+}
+.div-block-6:nth-child(even) .text-block-5{
+    color: #0f33ff;
+
+}
 
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
     display: block
@@ -3048,12 +3056,13 @@ p {
 }
 
 .text-block-5 {
+
     font-family: Montserrat, sans-serif;
-    color: #303030
+    color: #000000
 }
 
 .div-block-5 {
-    margin-top: 10px
+   margin-top: 10px
 }
 
 .columns-3 {
