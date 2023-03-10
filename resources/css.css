@@ -1293,3 +1293,14 @@
 .div-block-6:nth-child(2n) .text-block-5{
   color: rgb(211, 35, 35);
 }
+
+input {
+  outline: none;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.calc-input {
+  width: 60px;
+  text-align: center;
+}
