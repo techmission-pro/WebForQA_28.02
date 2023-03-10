@@ -1,4 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Smokum&display=swap');
+
 .calc-input{
-    width: 150px;
+    font-size: 1.2em;
+    width: 120px;
+    height: 50px;
     text-align: center;
+    background-color: rgb(37, 120, 228);
+    color: aliceblue;
+    top:50%;
+    border:none;
+    border-radius:30px;
+}
+.calc-input1{
+    font-size: 1.2em;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    background-color: rgb(37, 120, 228);
+    color: rgb(255, 255, 255);
+    top:50%;
+    border:none;
+    border-radius:30px;
+}
+.calc-calculate{
+    font-size: 1.2em;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(235, 87, 18);
+    color: azure;
+    top:50%;
+    border:none;
+    border-radius:30px;
+}
+.div-block-27{
+    font-family:Dancing Script;
+    background-color: rgb(13, 1, 82);
+    top:50%;
+    border:none;
+    border-radius:30px;
 }
