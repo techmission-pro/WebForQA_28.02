@@ -6,14 +6,14 @@
     height: 50px;
     text-align: center;
     background-color: rgb(37, 120, 228);
-    color: aliceblue;
+    color: rgb(218, 218, 218);
     top:50%;
     border:none;
     border-radius:30px;
 }
 .calc-input1{
     font-size: 1.2em;
-    width: 150px;
+    width: 120px;
     height: 50px;
     text-align: center;
     background-color: rgb(37, 120, 228);
@@ -30,12 +30,23 @@
     color: azure;
     top:50%;
     border:none;
-    border-radius:30px;
+    border-radius:10px;
 }
 .div-block-27{
     font-family:Dancing Script;
-    background-color: rgb(13, 1, 82);
+    background-color: rgb(12, 218, 233);
     top:50%;
     border:none;
     border-radius:30px;
+}
+
+
+.calc-op {
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    background-color:rgb(235, 87, 18);
+    top:50%;
+    border:none;
+    border-radius:10px;
 }
