@@ -5,3 +5,22 @@
 .div-block-6:nth-child(2n) .text-block-5{
 	color: blue;
 }
+.calc-input {
+	color: white;
+	background: black;
+	width: 140px;
+	text-align: center;
+}
+.calc-result {
+	border: 2px solid red;
+  border-radius: 4px;
+}
+.calc-sum {
+	background-image: linear-gradient(to right, yellow, green);
+}
+.calc-op {
+	border: 2px solid red;
+  border-radius: 4px;
+  background-image: linear-gradient(to right, yellow, green);
+  color: red;
+}
