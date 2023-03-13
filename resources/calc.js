@@ -1,5 +1,5 @@
 function calculate () {
- const num1 = +document.querySelector('[name ="num1"]').value;
+    const num1 = +document.querySelector('[name ="num1"]').value;
     const num2 = +document.querySelector('[name ="num2"]').value;
     const op = document.querySelector('[name ="op"]').value;
 
