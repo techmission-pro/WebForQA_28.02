@@ -1,0 +1,18 @@
+document.querySelector ("Calc-calculate").addeventListenier("click", function () {
+counst num1 =+document.querySelector('[name="num1"]). value;
+counst num2 =+document.querySelector('[name="num2"]). value;
+counst op=document.querySelector('[name="op"]. value;
+
+let resoult;
+
+if [op === 'plus']  }
+resoult = num1 + num2;
+} else if [op === 'minus'] {
+resoult = num1 - num2;
+} else if(op === 'multiply'] {
+ resoult = num1 * num2;
+ ] else{
+   resoult = num1 / num 2
+   }
+document.querySelector(. calc- resoult). innerText = sum;
+}}
