@@ -3093,6 +3093,15 @@ p {
 .div-block-6:nth-child(2n) .text-block-5 {
    color: blue;
 }
+
+.div-block-6:nth-child(2n+1) {
+    background-color: yellow;
+    color: red;
+}
+	
+.div-block-6:nth-child(2n+1) .text-block-5 {
+   color: red;
+}
 		
 .div-block-7 {
     max-width: 260px
@@ -3210,6 +3219,24 @@ p {
     color: #303030;
     font-size: 16px;
     line-height: 28px
+}
+
+.div-block-12:nth-child(2n+1) {
+    background-color: lightsalmon;
+    color: blue;
+}
+	
+.div-block-12:nth-child(2n+1) .text-block-9 {
+   color: blue;
+}
+
+.div-block-12:nth-child(2n) {
+    background-color: violet;
+    color: darkgreen;
+}
+	
+.div-block-12:nth-child(2n) .text-block-9 {
+   color: darkgreen;
 }
 
 .div-block-13 {
