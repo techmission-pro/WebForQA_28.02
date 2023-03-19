@@ -3,22 +3,36 @@ const num1 = +document.querySelector('[name="num1"]').value;
 const num2 = +document.querySelector('[name="num2"]').value;
 const op = document.querySelector('[name="op"]').value;
 
-let result;
+    let result;
 
-if (op === 'plus') {
-    result = num1 + num2;}
-	else if (op === 'minus') {
-	result = num1 - num2;}
-	else if (op === 'multiply') {
-	result = num1 * num2;}
-	else if (op === 'divide') {
-	result = num1 / num2;}
-	else { console.error('Wrong op!');
-	alert('Wrong operation is seleoted');}
+    if (op === 'plus') {
+    result = num1 + num2;
+	} 	else if (op === 'minus') {
+		result = num1 - num2;
+	}   else if (op === 'multiply') {
+		result = num1 * num2;
+	}   else if (op === 'divide') { 
+    	result = num1 / num2;
+	}   else { 
+	    console.error('Wrong op!');
+		alert('Wrong operation is seleoted');
+	}
 	
-document.querySelector('.calc-result').value = result;
+     document.querySelector('.calc-result').value = result;
 }
 
 document.querySelector('.calc-calculate').addEventlistener('click', function () {
+    calculate();
+});
+
+ document.querySelector('[name="op"]').addEventlistener ('input', function () {
+    calculate();
+});
+
+document.querySelector('[name="num1"]').addEventlistener ('input', function () {
+    calculate();
+});
+
+document.querySelector('[name="num2]').addEventlistener ('input', function () {
     calculate();
 });
