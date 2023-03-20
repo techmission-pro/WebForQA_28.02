@@ -21,18 +21,18 @@ const op = document.querySelector('[name="op"]').value;
      document.querySelector('.calc-result').value = result;
 }
 
-document.querySelector('.calc-calculate').addEventlistener('click', function () {
+document.querySelector('.calc-calculate').addEventListener('click', function () {
     calculate();
 });
 
- document.querySelector('[name="op"]').addEventlistener ('input', function () {
+ document.querySelector('[name="op"]').addEventListener ('input', function () {
     calculate();
 });
 
-document.querySelector('[name="num1"]').addEventlistener ('input', function () {
+document.querySelector('[name="num1"]').addEventListener ('input', function () {
     calculate();
 });
 
-document.querySelector('[name="num2]').addEventlistener ('input', function () {
+document.querySelector('[name="num2]').addEventListener ('input', function () {
     calculate();
 });
