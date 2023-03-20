@@ -18,6 +18,6 @@ document.querySelector('.calc-calculate').addEventListener('click', function () 
         alert('Wrong operation is selected');
     }		
 	
-    document.querySelector('.calc-result').value = sum;	
+    document.querySelector('.calc-result').value = result;	
 
 });
