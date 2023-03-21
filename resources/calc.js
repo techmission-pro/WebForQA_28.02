@@ -11,7 +11,7 @@ function  calculate() {
 		result = num1 - num2;
 	} else if (op === 'multiply') {
 		result = num1 * num2;
-	} else if (op === 'divide') {
+	} else if (op === 'divade') {
 		result = num1 / num2;
 	} else {
     	console.error('wrong op!');	
