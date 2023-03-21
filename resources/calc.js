@@ -21,11 +21,11 @@
     document.querySelector('.calc-result').value = result;
  } 
 
-document.querySelector('.calc-calculate').addEventListener('click', function(); {
+document.querySelector('.calc-calculate').addEventListener('click', function() {
 	calculate();
 });
 
-document.querySelector('[name="op"]').addEventListener('change', function(); {
+document.querySelector('[name="op"]').addEventListener('change', function() {
 	calculate();
 });
 
